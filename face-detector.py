@@ -7,7 +7,7 @@
 #         break
 
 # video_capture.release()
-
+# version 2
 
 import cv2
 face_cap = cv2.CascadeClassifier("c:\\Users\\AHMED\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\cv2\\data\\haarcascade_frontalface_default.xml")
