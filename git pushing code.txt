@@ -1,0 +1,27 @@
+#fresh push:
+-------------
+
+git init
+git add .
+git commit -m "commit meeasge"
+git branch -M main
+git remote add origin url
+git push -u origin main
+
+
+#update push:
+--------------
+
+git add .
+git commit -m "message"
+git push
+
+#requirements.txt creation:
+--------------------------
+
+pip freeze > requirement.txt
+
+#install through requirements.txt:
+----------------------------------
+
+pip install -r requirements.txt
