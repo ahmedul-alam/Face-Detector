@@ -104,3 +104,24 @@ AHMED
 ## Contributing
 
 Feel free to fork this project, make improvements, and submit pull requests.
+
+## Additional Scripts
+
+This repository also includes a very simple **number guessing game** implemented in Python.
+The script `guessing_game.py` is standalone and can be run without any additional dependencies.
+
+### About the guessing game
+1. The program picks a random integer between 1 and 100.
+2. You are prompted to guess the number.
+3. After each guess the program tells you whether your guess was too high,
+   too low, or correct.
+4. The game counts your attempts and congratulates you when you succeed.
+
+### Run the game
+```bash
+python guessing_game.py
+```
+
+Feel free to modify the logic or expand it with features like difficulty levels,
+score tracking, or a graphical interface!
+
